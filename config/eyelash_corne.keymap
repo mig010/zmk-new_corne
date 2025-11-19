@@ -67,17 +67,17 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F     &kp P              &kp B                               &kp UP                &kp J        &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&td0       &kp A  &kp R  &kp S     &kp T              &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M        &kp N      &kp E      &kp I    &kp O          &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp D              &kp V        &kp SPACE              &kp DOWN              &kp K        &kp H      &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                         &kp LGUI  &kp LA(BACKSPACE)  &lt 3 SPACE                                               &lt 3 ENTER  &kp SPACE  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp F  &kp P              &kp B                               &kp UP                &kp J        &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&td0       &kp A  &kp R  &kp S  &kp T              &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M        &kp N      &kp E      &kp I    &kp O          &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C  &kp D              &kp V        &kp SPACE              &kp DOWN              &kp K        &kp H      &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                         &mo 2  &kp LA(BACKSPACE)  &lt 3 SPACE                                               &lt 3 ENTER  &kp SPACE  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        lower_layer {
-            display-name = "NUMBER";
+        all_layer {
+            display-name = "all";
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
@@ -88,8 +88,8 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        rasied_layer {
-            display-name = "SYMBOL";
+        numbers_layer {
+            display-name = "numbers";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp N5        &kp DLLR      &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS  &kp NUMBER_6  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp N7    &kp N8        &kp N9    &kp N0    &kp GRAVE
