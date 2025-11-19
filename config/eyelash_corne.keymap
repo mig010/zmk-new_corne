@@ -283,12 +283,12 @@
             >;
         };
 
-        layer_23 {
+        workspaces {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans         &trans  &trans             &trans                    &trans          &trans  &trans             &trans             &trans             &trans             &trans
+&trans  &trans  &kp LA(LG(E))  &mo 24  &kp LG(LA(LS(B)))  &trans            &trans  &trans  &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LA(LS(G)))  &trans
+&trans  &trans  &trans         &trans  &kp LC(J)          &trans  &trans            &trans          &trans  &trans             &trans             &trans             &trans             &trans
+                               &trans  &trans             &trans                                    &mo 25  &trans             &trans
             >;
         };
 
