@@ -112,7 +112,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        vim_sentences {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -121,12 +121,12 @@
             >;
         };
 
-        layer_5 {
+        vim_cursor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans            &kp LS(L)  &kp LS(H)  &trans         &trans                       &mo 7           &trans  &kp O      &kp LS(M)  &kp CARET  &trans     &trans
+&trans  &kp LC(NUMBER_6)  &kp LC(U)  &kp LC(F)  &kp LC(D)      &kp LC(B)            &trans  &trans  &trans  &trans  &trans     &trans     &trans     &kp LS(G)  &trans
+&trans  &trans            &trans     &trans     &kp LS(SLASH)  &trans     &trans            &trans          &trans  &kp SLASH  &trans     &trans     &trans     &trans
+                                     &trans     &trans         &kp LS(A)                                    &mo 6   &mo 7      &trans
             >;
         };
 
