@@ -157,21 +157,21 @@
             >;
         };
 
-        layer_9 {
+        browser_tabs {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                    &trans          &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &kp X   &kp LS(X)  &kp LG(T)  &trans            &trans  &trans  &trans  &trans  &kp LS(S)  &kp LS(D)  &kp LS(I)  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans     &trans  &trans
+                        &trans     &trans     &trans                                    &trans  &trans     &trans
             >;
         };
 
-        layer_10 {
+        browser_shortcuts {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans        &trans                    &trans          &trans  &trans         &trans     &trans                 &trans                         &trans
+&trans  &trans  &trans  &kp LG(MINUS)  &kp LG(PLUS)  &trans            &trans  &trans  &trans  &trans  &kp LG(LS(P))  &kp LC(P)  &kp LC(LG(LA(LS(X))))  &kp LG(LC(LA(LS(SEMICOLON))))  &trans
+&trans  &trans  &trans  &trans         &trans        &trans  &trans            &trans          &trans  &trans         &trans     &trans                 &trans                         &trans
+                        &trans         &trans        &trans                                    &trans  &trans         &trans
             >;
         };
 
