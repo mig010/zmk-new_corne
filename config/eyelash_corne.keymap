@@ -88,7 +88,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        numbers {
+        rasied_layer {
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp N5        &kp DLLR      &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS  &kp NUMBER_6  &kp LPAR  &kp RPAR  &kp BSPC
