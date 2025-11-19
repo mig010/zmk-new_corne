@@ -130,7 +130,7 @@
             >;
         };
 
-        layer_6 {
+        vim_bracets {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -139,21 +139,21 @@
             >;
         };
 
-        layer_7 {
+        neovi {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans                    &trans          &trans  &trans      &trans            &trans     &trans     &trans
+&trans  &trans  &kp LS(Y)  &kp LS(C)  &kp LS(D)  &trans            &trans  &trans  &trans  &trans  &kp LS(N8)  &kp LS(NUMBER_3)  &kp SLASH  &kp QMARK  &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans            &trans          &trans  &trans      &trans            &trans     &trans     &trans
+                           &trans     &trans     &trans                                    &trans  &trans      &trans
             >;
         };
 
-        layer_8 {
+        browser {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans             &trans  &kp LG(W)          &trans             &trans                               &mo 12          &trans  &trans     &trans  &kp LG(T)  &trans  &trans
+&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))            &trans  &trans  &trans  &trans  &kp LS(E)  &trans  &kp LS(R)  &mo 11  &trans
+&trans  &trans             &trans  &trans             &trans             &trans             &trans            &trans          &trans  &trans     &trans  &trans     &trans  &trans
+                                   &trans             &trans             &trans                                               &mo 12  &trans     &trans
             >;
         };
 
