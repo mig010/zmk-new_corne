@@ -175,21 +175,21 @@
             >;
         };
 
-        layer_11 {
+        browser_basics {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans         &trans     &trans  &trans     &trans                    &trans          &trans  &trans     &trans         &trans  &trans         &trans
+&trans  &kp LC(LS(Q))  &kp LG(U)  &trans  &kp LG(M)  &trans            &trans  &trans  &trans  &trans  &kp LG(Y)  &kp LG(LC(B))  &trans  &kp RC(SLASH)  &trans
+&trans  &trans         &trans     &trans  &trans     &trans  &trans            &trans          &trans  &trans     &trans         &trans  &trans         &trans
+                                  &trans  &trans     &trans                                    &trans  &trans     &trans
             >;
         };
 
-        layer_12 {
+        mouseless {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp F12          &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &kp F5  &kp F2  &kp F9  &kp F4  &kp F1             &trans  &trans   &trans  &trans  &kp F6  &trans  &kp F3  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &trans            &trans           &trans  &trans  &trans  &trans  &trans   &trans
+                        &trans  &trans  &kp F11                                     &trans  &trans  &trans
             >;
         };
 
