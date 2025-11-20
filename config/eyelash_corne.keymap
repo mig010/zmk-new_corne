@@ -265,21 +265,21 @@
             >;
         };
 
-        layer_21 {
+        vimuium {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &kp Q   &trans             &trans                    &trans          &trans     &trans     &kp LS(NUMBER_2)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans             &trans            &trans  &trans  &trans  &trans     &kp LC(N)  &kp LC(P)         &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans             &trans  &trans            &trans          &trans     &trans     &trans            &trans  &trans  &trans
+                        &trans  &kp LG(BACKSPACE)  &trans                                    &kp LC(O)  &trans     &trans
             >;
         };
 
-        layer_22 {
+        fucs {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp LC(H)  &kp LC(L)  &kp LC(J)  &kp LC(K)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans     &trans     &trans     &trans     &trans
+                        &trans  &trans  &trans                                    &trans  &trans     &trans
             >;
         };
 
