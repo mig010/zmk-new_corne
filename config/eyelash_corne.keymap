@@ -355,12 +355,12 @@
             >;
         };
 
-        layer_31 {
+        programming {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans    &trans    &trans    &trans     &trans                    &trans          &trans  &trans         &trans        &trans            &trans  &trans
+&trans  &kp PIPE  &kp EXCL  &kp PLUS  &kp EQUAL  &trans            &trans  &trans  &trans  &trans  &kp LESS_THAN  &kp QUESTION  &kp GREATER_THAN  &trans  &trans
+&trans  &trans    &trans    &trans    &trans     &trans  &trans            &trans          &trans  &trans         &trans        &trans            &trans  &trans
+                            &trans    &trans     &trans                                    &trans  &trans         &trans
             >;
         };
     };
