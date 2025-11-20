@@ -193,12 +193,12 @@
             >;
         };
 
-        layer_13 {
+        raycast {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans              &kp LS(LG(PERIOD))  &kp LS(LA(LC(G)))  &trans  &trans                    &mo 15          &kp LS(LG(C))          &kp LG(Y)          &kp LS(LA(LG(PERIOD)))  &kp LG(PERIOD)         &trans                 &trans
+&trans  &kp LG(LS(PERIOD))  &mo 14              &mo 17             &trans  &trans            &trans  &trans  &trans  &kp LG(LA(LC(LS(Y))))  &kp LS(LC(COMMA))  &kp LG(LA(LC(LS(U))))   &kp LG(LA(LC(LS(I))))  &kp LC(LA(LS(X)))      &trans
+&trans  &trans              &kp LC(X)           &kp LS(LG(R))      &trans  &trans  &trans            &trans          &kp LG(I)              &kp LG(K)          &kp LG(O)               &kp LG(ENTER)          &kp LS(LC(LA(SLASH)))  &trans
+                                                &trans             &trans  &trans                                    &kp LS(LA(Y))          &kp LS(LG(L))      &kp LC(LS(Q))
             >;
         };
 
