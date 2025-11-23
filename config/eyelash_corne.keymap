@@ -700,12 +700,12 @@
             >;
         };
 
-        layer_17 {
+        tmux_ghostty {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans           &trans          &trans        &trans        &trans                    &trans          &trans  &trans         &kp LS(A)  &trans                 &trans                    &trans
+&trans  &firstvimchange  &lastvimchange  &lastinertlo  &lastinertlo  &trans            &trans  &trans  &trans  &trans  &kp LC(LS(R))  &kp LC(N)  &kp LS(LA(LC(LG(Z))))  &kp LG(LA(LC(LS(SEMI))))  &trans
+&trans  &trans           &trans          &trans        &trans        &trans  &trans            &trans          &trans  &trans         &trans     &trans                 &trans                    &trans
+                                         &trans        &trans        &trans                                    &trans  &trans         &trans
             >;
         };
 
@@ -738,10 +738,10 @@
 
         vimuium {
             bindings = <
-&trans  &trans  &trans  &kp Q   &trans             &trans                    &trans          &trans     &trans     &kp LS(NUMBER_2)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans             &trans            &trans  &trans  &trans  &trans     &kp LC(N)  &kp LC(P)         &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans             &trans  &trans            &trans          &trans     &trans     &trans            &trans  &trans  &trans
-                        &trans  &kp LG(BACKSPACE)  &trans                                    &kp LC(O)  &trans     &trans
+&trans  &trans               &trans           &kp Q           &trans             &trans                      &trans          &trans     &trans     &kp LS(NUMBER_2)  &trans       &trans  &trans
+&trans  &previousdiagnostic  &nextdiagnostic  &previouserror  &nexterror         &trans              &trans  &trans  &trans  &trans     &kp LC(N)  &kp LC(P)         &aroundpara  &fuzzy  &trans
+&trans  &trans               &trans           &trans          &trans             &trans    &trans            &trans          &trans     &trans     &trans            &trans       &trans  &trans
+                                              &trans          &kp LG(BACKSPACE)  &muxprev                                    &kp LC(O)  &trans     &trans
             >;
         };
 
