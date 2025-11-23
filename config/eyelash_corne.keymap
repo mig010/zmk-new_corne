@@ -96,6 +96,90 @@
             bindings = <&kp D &kp I &kp W>;
             label = "DELETE_WORD";
         };
+
+        visual_w: visual_w {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp LS(W)>;
+            label = "VISUAL_W";
+        };
+
+        visual_w: visual_w {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp LS(W)>;
+            label = "VISUAL_W";
+        };
+
+        remove_o: remove_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp LS(W)>;
+            label = "REMOVE_O";
+        };
+
+        vim_bracet_replace: vim_bracet_replace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp B>;
+            label = "VIM_BRACET_REPLACE";
+        };
+
+        inside_brackets: inside_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp LS(B)>;
+            label = "INSIDE_BRACKETS";
+        };
+
+        ccode: erase_in_bracketss {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp B>;
+            label = "ERASE_IN_BRACKETSS";
+        };
+
+        yank_brackets: yank_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp LS(B)>;
+            label = "YANK_BRACKETS";
+        };
+
+        erase_in_bracketss: erase_in_bracketss {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp B>;
+            label = "ERASE_IN_BRACKETSS";
+        };
+
+        exterminate_brackets: exterminate_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp LS(B)>;
+            label = "EXTERMINATE_BRACKETS";
+        };
+
+        vision_code_block: vision_code_block {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp B>;
+            label = "VISION_CODE_BLOCK";
+        };
+
+        visuallizing_curly_brackets: visuallizing_curly_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp LS(B)>;
+            label = "VISUALLIZING_CURLY_BRACKETS";
+        };
+
+        ticey_tack: ticey_tack {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp GRAVE>;
+            label = "TICEY_TACK";
+        };
     };
 
     keymap {
