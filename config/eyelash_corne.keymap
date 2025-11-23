@@ -538,7 +538,7 @@
         default_layer {
             display-name = "kuru";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F  &kp P              &kp B                         &kp UP                &kp J        &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp TAB    &kp Q  &kp W  &kp F  &kp P              &kp B                         &mo 30                &kp J        &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &td0       &kp A  &kp R  &kp S  &kp T              &kp G               &kp LEFT  &kp ENTER  &kp RIGHT  &kp M        &kp N      &kp E      &kp I    &kp O          &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C  &kp D              &kp V  &kp SPACE              &kp DOWN              &kp K        &kp H      &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
                          &mo 2  &kp LA(BACKSPACE)  &mo 1                                               &lt 3 ENTER  &kp SPACE  &kp RALT
@@ -551,7 +551,7 @@
             display-name = "all";
             bindings = <
 &bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &mo 18     &kp N5                                         &kp RG(BACKSPACE)                   &kp DOUBLE_QUOTES  &kp LG(LC(LA(SLASH)))  &mo 8          &kp SINGLE_QUOTE  &kp N0   &mypssword
-&trans     &mo 23           &mo 26     &mo 6      &mo 13     &kp F8                         &mmv MOVE_LEFT  &mkp LCLK          &mmv MOVE_RIGHT  &kp F3             &kp TAB                &kp LC(W)      &kp ESCAPE        &mo 30   &kp Z
+&trans     &mo 23           &mo 26     &mo 6      &mo 13     &kp F8                         &mmv MOVE_LEFT  &mkp LCLK          &mmv MOVE_RIGHT  &kp F3             &kp TAB                &kp LC(W)      &kp ESCAPE        &mo 31   &kp Z
 &trans     &rgb_ug RGB_OFF  &kp LG(X)  &kp LG(C)  &kp LG(V)  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                      &rgb_ug RGB_EFR    &findbra               &closingcurly  &seechildren      &kp END  &mipassword
                                        &trans     &trans     &trans                                                                             &kp LC(S)          &mo 17                 &kp LG(Z)
             >;
@@ -747,10 +747,10 @@
 
         fucs {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp LC(H)  &kp LC(L)  &kp LC(J)  &kp LC(K)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans     &trans     &trans     &trans     &trans
-                        &trans  &trans  &trans                                    &trans  &trans     &trans
+&trans  &trans  &trans       &trans   &trans     &trans                    &trans          &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &closesplit  &splitV  &horsplit  &trans            &trans  &trans  &trans  &trans  &kp LC(H)  &kp LC(L)  &kp LC(J)  &kp LC(K)  &trans
+&trans  &trans  &trans       &trans   &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans     &trans     &trans
+                             &trans   &trans     &trans                                    &trans  &trans     &trans
             >;
         };
 
@@ -763,21 +763,21 @@
             >;
         };
 
-        layer_24 {
+        workspace_layouts {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans         &trans  &trans  &trans          &trans                    &kp LG(MINUS)          &trans             &trans         &trans         &trans         &trans         &trans
+&trans  &kp LG(SLASH)  &trans  &trans  &kp LG(PERIOD)  &trans            &trans  &trans         &trans  &trans             &kp LG(LS(H))  &kp LG(LS(J))  &kp LG(LS(K))  &kp LG(LS(L))  &trans
+&trans  &trans         &trans  &trans  &trans          &trans  &trans            &trans                 &trans             &trans         &trans         &trans         &trans         &trans
+                               &trans  &trans          &trans                                           &kp LS(LG(EQUAL))  &trans         &trans
             >;
         };
 
-        layer_25 {
+        wordspace_focus {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans     &trans                    &trans          &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &kp LG(E)  &trans  &trans  &kp LG(A)  &trans            &trans  &trans  &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans
+&trans  &trans     &trans  &trans  &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans     &trans     &trans
+                           &trans  &trans     &trans                                    &trans  &trans     &trans
             >;
         };
 
@@ -810,10 +810,10 @@
 
         layer_29 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans            &trans    &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &begininsertmode  &winsert  &endinertm  &kp LC(O)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans            &trans    &trans      &trans     &trans
+                        &trans  &trans  &trans                                    &trans  &trans            &trans
             >;
         };
 
