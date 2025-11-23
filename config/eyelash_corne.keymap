@@ -257,6 +257,153 @@
             bindings = <&kp D &kp I &kp S>;
             label = "DIS";
         };
+
+        caw: caw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp A &kp W>;
+            label = "CAW";
+        };
+
+        yaw: yaw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp A &kp W>;
+            label = "YAW";
+        };
+
+        endofword: endofword {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp E>;
+            label = "ENDOFWORD";
+        };
+
+        jumk: jumk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp N>;
+            label = "JUMK";
+        };
+
+        splitV: splitV {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp S &kp V>;
+            label = "SPLITV";
+        };
+
+        horsplit: horsplit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp S &kp H>;
+            label = "HORSPLIT";
+        };
+
+        closesplit: closesplit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp S &kp X>;
+            label = "CLOSESPLIT";
+        };
+
+        changetext: changetext {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp DOUBLE_QUOTES>;
+            label = "CHANGETEXT";
+        };
+
+        stringchange: stringchange {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp SINGLE_QUOTE>;
+            label = "STRINGCHANGE";
+        };
+
+        fuzzy: fuzzy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp Z &kp F>;
+            label = "FUZZY";
+        };
+
+        aroundpara: aroundpara {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp A &kp P>;
+            label = "AROUNDPARA";
+        };
+
+        gospace: gospace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp SPACE>;
+            label = "GOSPACE";
+        };
+
+        findbra: findbra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp LS(NUMBER_9)>;
+            label = "FINDBRA";
+        };
+
+        lookcurly: lookcurly {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp LEFT_BRACE>;
+            label = "LOOKCURLY";
+        };
+
+        ssemicolon: ssemicolon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp SEMICOLON>;
+            label = "SSEMICOLON";
+        };
+
+        closingcurly: closingcurly {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp LS(N0)>;
+            label = "CLOSINGCURLY";
+        };
+
+        lockedbra: lockedbra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp RIGHT_BRACE>;
+            label = "LOCKEDBRA";
+        };
+
+        seechildren: seechildren {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp LEFT_BRACKET>;
+            label = "SEECHILDREN";
+        };
+
+        closechildren: closechildren {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp RIGHT_BRACKET>;
+            label = "CLOSECHILDREN";
+        };
+
+        lconditional: lconditional {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp LS(SEMI)>;
+            label = "LCONDITIONAL";
+        };
+
+        mask: mask {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp CARET &kp LS(M)>;
+            label = "MASK";
+        };
     };
 
     keymap {
