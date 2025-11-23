@@ -61,6 +61,43 @@
         };
     };
 
+    macros {
+        ciw: ciw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp W>;
+            label = "CIW";
+        };
+
+        viw: viw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp W>;
+            label = "VIW";
+        };
+
+        yiw: yiw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp W>;
+            label = "YIW";
+        };
+
+        ten: ten {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_1 &kp N0>;
+            label = "TEN";
+        };
+
+        delete_word: delete_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp W>;
+            label = "DELETE_WORD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -103,10 +140,10 @@
         vim_layer {
             display-name = "vim";
             bindings = <
-&studio_unlock  &kp F1      &kp F2  &kp DOLLAR     &kp LS(NUMBER_3)  &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8     &kp F9  &kp F10         &kp F11
-&trans          &mo 22      &kp B   &mo 4          &kp W             &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp J      &kp K      &mo 21  &mo 7           &kp F12
-&trans          &sys_reset  &trans  &kp LC(O)      &kp SLASH         &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &kp LS(L)  &kp LC(I)  &kp C   &kp SCROLLLOCK  &kp PAUSE_BREAK
-                                    &kp BACKSLASH  &trans            &mo 5                                                                    &trans       &trans     &trans
+&studio_unlock  &kp F1  &kp F2  &kp DOLLAR     &kp HASH   &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp ASTERISK  &kp PERCENT  &kp F9  &kp F10         &kp F11
+&trans          &mo 22  &kp B   &mo 4          &kp W      &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &kp J         &kp K        &mo 21  &mo 7           &kp F12
+&trans          &trans  &trans  &kp LC(O)      &kp SLASH  &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &kp LS(L)     &kp LC(I)    &kp C   &kp SCROLLLOCK  &kp PAUSE_BREAK
+                                &kp BACKSLASH  &trans     &mo 5                                                                    &trans       &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
