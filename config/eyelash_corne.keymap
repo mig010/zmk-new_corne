@@ -104,13 +104,6 @@
             label = "VISUAL_W";
         };
 
-        visualcapitalword: visual_w {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp V &kp I &kp LS(W)>;
-            label = "VISUAL_W";
-        };
-
         remove_o: remove_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -144,20 +137,6 @@
             #binding-cells = <0>;
             bindings = <&kp Y &kp I &kp LS(B)>;
             label = "YANK_BRACKETS";
-        };
-
-        erase_insidecurlybracket: erase_in_bracketss {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp B>;
-            label = "ERASE_IN_BRACKETSS";
-        };
-
-        exterminate_bracke: exterminate_brackets {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp LS(B)>;
-            label = "EXTERMINATE_BRACKETS";
         };
 
         vision_code_block: vision_code_block {
@@ -530,6 +509,27 @@
             bindings = <&kp LEFT_BRACKET &kp E>;
             label = "PREVIOUSERROR";
         };
+
+        removeinsidebraa: removeinsidebraa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp B>;
+            label = "REMOVEINSIDEBRAA";
+        };
+
+        vision_curly_brackets: vision_curly_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp LS(B)>;
+            label = "VISION_CURLY_BRACKETS";
+        };
+
+        exterminate_brackets: exterminate_brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp LS(B)>;
+            label = "EXTERMINATE_BRACKETS";
+        };
     };
 
     keymap {
@@ -603,10 +603,10 @@
 
         vim_bracets {
             bindings = <
-&trans  &trans              &trans                     &jumk             &ssemicolon  &trans                    &mo 21          &trans  &lconditional     &trans               &trans               &trans                 &trans
-&trans  &vision_code_block  &erase_insidecurlybracket  &inside_brackets  &ccode       &trans            &trans  &trans  &trans  &trans  &yank_brackets    &vim_bracet_replace  &exterminate_bracke  &visuallizing_curly_b  &trans
-&trans  &trans              &trans                     &trans            &trans       &trans  &trans            &trans          &trans  &lookcurly        &closingcurly        &closechildren       &trans                 &trans
-                                                       &trans            &trans       &trans                                    &jumk   &inside_brackets  &trans
+&trans  &trans              &trans             &jumk             &ssemicolon  &trans                    &mo 21          &trans  &lconditional     &trans               &trans                 &trans                 &trans
+&trans  &vision_code_block  &removeinsidebraa  &inside_brackets  &ccode       &trans            &trans  &trans  &trans  &trans  &yank_brackets    &vim_bracet_replace  &exterminate_brackets  &visuallizing_curly_b  &trans
+&trans  &trans              &trans             &trans            &trans       &trans  &trans            &trans          &trans  &lookcurly        &closingcurly        &closechildren         &trans                 &trans
+                                               &trans            &trans       &trans                                    &jumk   &inside_brackets  &trans
             >;
         };
 
