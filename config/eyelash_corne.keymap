@@ -97,7 +97,7 @@
             label = "DELETE_WORD";
         };
 
-        visual_w: visual_w {
+        replace_word: visual_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp C &kp I &kp LS(W)>;
