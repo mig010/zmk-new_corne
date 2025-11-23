@@ -104,7 +104,7 @@
             label = "VISUAL_W";
         };
 
-        visual_w: visual_w {
+        visualcapitalword: visual_w {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp V &kp I &kp LS(W)>;
@@ -146,7 +146,7 @@
             label = "YANK_BRACKETS";
         };
 
-        erase_in_bracketss: erase_in_bracketss {
+        erase_insidecurlybracket: erase_in_bracketss {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp I &kp B>;
@@ -603,10 +603,10 @@
 
         vim_bracets {
             bindings = <
-&trans  &trans              &trans               &jumk             &ssemicolon  &trans                    &mo 21          &trans  &lconditional     &trans               &trans               &trans                 &trans
-&trans  &vision_code_block  &erase_in_bracketss  &inside_brackets  &ccode       &trans            &trans  &trans  &trans  &trans  &yank_brackets    &vim_bracet_replace  &exterminate_bracke  &visuallizing_curly_b  &trans
-&trans  &trans              &trans               &trans            &trans       &trans  &trans            &trans          &trans  &lookcurly        &closingcurly        &closechildren       &trans                 &trans
-                                                 &trans            &trans       &trans                                    &jumk   &inside_brackets  &trans
+&trans  &trans              &trans                     &jumk             &ssemicolon  &trans                    &mo 21          &trans  &lconditional     &trans               &trans               &trans                 &trans
+&trans  &vision_code_block  &erase_insidecurlybracket  &inside_brackets  &ccode       &trans            &trans  &trans  &trans  &trans  &yank_brackets    &vim_bracet_replace  &exterminate_bracke  &visuallizing_curly_b  &trans
+&trans  &trans              &trans                     &trans            &trans       &trans  &trans            &trans          &trans  &lookcurly        &closingcurly        &closechildren       &trans                 &trans
+                                                       &trans            &trans       &trans                                    &jumk   &inside_brackets  &trans
             >;
         };
 
