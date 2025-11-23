@@ -404,6 +404,132 @@
             bindings = <&kp CARET &kp LS(M)>;
             label = "MASK";
         };
+
+        Component: Component {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp CARET &kp LA(LG(K))>;
+            label = "COMPONENT";
+        };
+
+        mipassword: mipassword {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp I &kp G &kp B &kp Y &kp T &kp E &kp DOLLAR &kp PERCENT>;
+            label = "MIPASSWORD";
+        };
+
+        muxprev: muxprev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(N) &kp LC(P)>;
+            label = "MUXPREV";
+        };
+
+        delwithspacedaw: delwithspacedaw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp W>;
+            label = "DELWITHSPACEDAW";
+        };
+
+        winsert: winsert {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(O) &kp W>;
+            label = "WINSERT";
+        };
+
+        begininsertmode: begininsertmode {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(O) &kp B>;
+            label = "BEGININSERTMODE";
+        };
+
+        endinertm: endinertm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(O) &kp RIGHT_ARROW &kp E>;
+            label = "ENDINERTM";
+        };
+
+        var: var {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOLLAR &kp V &kp A &kp R>;
+            label = "VAR";
+        };
+
+        eloquentchain: eloquentchain {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GREATER_THAN>;
+            label = "ELOQUENTCHAIN";
+        };
+
+        phpopening: phpopening {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LESS_THAN &kp QUESTION &kp P &kp H &kp P &kp QUESTION &kp GREATER_THAN>;
+            label = "PHPOPENING";
+        };
+
+        mypssword: mypssword {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp PERIOD>;
+            label = "MYPSSWORD";
+        };
+
+        lastinertlo: lastinertlo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp CARET>;
+            label = "LASTINERTLO";
+        };
+
+        lastvimchange: lastvimchange {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp LEFT_BRACKET>;
+            label = "LASTVIMCHANGE";
+        };
+
+        firstvimchange: firstvimchange {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE &kp RIGHT_BRACKET>;
+            label = "FIRSTVIMCHANGE";
+        };
+
+        nexterror: nexterror {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET &kp E>;
+            label = "NEXTERROR";
+        };
+
+        nextdiagnostic: nextdiagnostic {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET &kp D>;
+            label = "NEXTDIAGNOSTIC";
+        };
+
+        previousdiagnostic: previousdiagnostic {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp D>;
+            label = "PREVIOUSDIAGNOSTIC";
+        };
+
+        previouserror: previouserror {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp E>;
+            label = "PREVIOUSERROR";
+        };
     };
 
     keymap {
