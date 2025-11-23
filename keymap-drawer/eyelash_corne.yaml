@@ -310,7 +310,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&vision_code_block'
-  - '&erase_insidecurlybracket'
+  - '&removeinsidebraa'
   - {t: '&inside_brackets', type: held}
   - '&ccode'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -320,7 +320,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&yank_brackets'
   - '&vim_bracet_replace'
-  - '&exterminate_bracke'
+  - '&exterminate_brackets'
   - '&visuallizing_curly_b'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
