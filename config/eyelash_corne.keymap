@@ -595,7 +595,7 @@
         vim_cursor {
             bindings = <
 &trans  &trans            &kp LS(L)  &kp LS(H)  &trans         &trans                       &mo 7           &trans  &kp O      &kp LS(M)  &kp CARET  &trans     &trans
-&trans  &kp LC(NUMBER_6)  &kp LC(U)  &kp LC(F)  &kp LC(D)      &kp LC(B)            &trans  &trans  &trans  &trans  &trans     &trans     &trans     &kp LS(G)  &trans
+&trans  &kp LC(NUMBER_6)  &kp LC(U)  &kp LC(F)  &kp LC(D)      &kp LC(B)            &trans  &trans  &trans  &trans  &zto       &vmid      &bbot      &kp LS(G)  &trans
 &trans  &trans            &trans     &trans     &kp LS(SLASH)  &trans     &trans            &trans          &trans  &kp SLASH  &trans     &trans     &trans     &trans
                                      &trans     &trans         &kp LS(A)                                    &mo 6   &mo 7      &trans
             >;
@@ -603,10 +603,10 @@
 
         vim_bracets {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans              &trans               &jumk             &ssemicolon  &trans                    &mo 21          &trans  &lconditional     &trans               &trans               &trans                 &trans
+&trans  &vision_code_block  &erase_in_bracketss  &inside_brackets  &ccode       &trans            &trans  &trans  &trans  &trans  &yank_brackets    &vim_bracet_replace  &exterminate_bracke  &visuallizing_curly_b  &trans
+&trans  &trans              &trans               &trans            &trans       &trans  &trans            &trans          &trans  &lookcurly        &closingcurly        &closechildren       &trans                 &trans
+                                                 &trans            &trans       &trans                                    &jumk   &inside_brackets  &trans
             >;
         };
 
@@ -673,12 +673,12 @@
             >;
         };
 
-        layer_14 {
+        raycast_apps {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &kp LS(LG(Z))  &trans  &trans                    &trans          &trans         &trans             &kp LG(LA(LC(LS(D))))  &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans         &trans  &trans            &trans  &trans  &trans  &trans         &kp LA(LS(LG(G)))  &kp LG(K)              &kp LG(LC(LA(LS(L))))  &kp LG(LC(LA(LS(K))))  &trans
+&trans  &trans  &trans  &trans         &trans  &trans  &trans            &trans          &trans         &trans             &trans                 &trans                 &trans                 &trans
+                        &trans         &trans  &mo 15                                    &kp LC(LS(Q))  &trans             &trans
             >;
         };
 
