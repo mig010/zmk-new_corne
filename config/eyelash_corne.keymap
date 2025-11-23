@@ -180,6 +180,83 @@
             bindings = <&kp GRAVE &kp GRAVE>;
             label = "TICEY_TACK";
         };
+
+        zto: zto {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp T>;
+            label = "ZTO";
+        };
+
+        vmid: vmid {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp Z>;
+            label = "VMID";
+        };
+
+        bbot: bbot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp B>;
+            label = "BBOT";
+        };
+
+        cip: cip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp P>;
+            label = "CIP";
+        };
+
+        vip: vip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp P>;
+            label = "VIP";
+        };
+
+        yip: yip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp P>;
+            label = "YIP";
+        };
+
+        dip: dip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp P>;
+            label = "DIP";
+        };
+
+        cis: cis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp I &kp S>;
+            label = "CIS";
+        };
+
+        vis: vis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp I &kp S>;
+            label = "VIS";
+        };
+
+        yis: yis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp I &kp S>;
+            label = "YIS";
+        };
+
+        dis: dis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp S>;
+            label = "DIS";
+        };
     };
 
     keymap {
