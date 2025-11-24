@@ -56,7 +56,7 @@ layers:
   - Gui+W
   - figma
   - {t: '5', s: '%'}
-  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
+  - captial_letters
   - '"'
   - {t: Gui+Ctl+Alt+/, s: 'Gui+Ctl+Alt+?'}
   - browser
@@ -985,9 +985,9 @@ layers:
   - Sft+Q
   - Sft+W
   - Sft+F
-  - {t: Sft+P, type: held}
+  - {t: Sft+P, type: held alternate}
   - Sft+B
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - Sft+J
   - Sft+L
   - Sft+U
@@ -1024,7 +1024,7 @@ layers:
   - {t: Sft+/, s: 'Sft+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+Q, type: held}
+  - {t: Sft+Q, type: held alternate}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
