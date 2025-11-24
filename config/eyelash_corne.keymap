@@ -720,10 +720,10 @@
 
         symbols_layer {
             bindings = <
-&trans  &trans     &trans     &kp UNDER   &trans       &trans                    &trans          &trans  &trans    &kp MINUS  &trans      &trans         &trans
-&trans  &kp CARET  &kp SLASH  &kp DOLLAR  &kp PERCENT  &trans            &trans  &trans  &trans  &trans  &kp HASH  &kp AT     &kp DOLLAR  &kp BACKSLASH  &trans
-&trans  &trans     &trans     &trans      &trans       &trans  &trans            &trans          &trans  &trans    &trans     &trans      &trans         &trans
-                              &trans      &trans       &trans                                    &trans  &trans    &trans
+&rgb_ug RGB_ON  &trans     &rgb_ug RGB_COLOR_HSB(0,100,45)    &kp UNDER   &rgb_ug RGB_EFF                   &trans                    &trans          &trans  &rgb_ug RGB_EFR  &kp MINUS  &rgb_ug RGB_COLOR_HSB(124,100,48)  &trans         &rgb_ug RGB_OFF
+&trans          &kp CARET  &kp SLASH                          &kp DOLLAR  &kp PERCENT                       &trans            &trans  &trans  &trans  &trans  &kp HASH         &kp AT     &kp DOLLAR                         &kp BACKSLASH  &trans
+&trans          &trans     &rgb_ug RGB_COLOR_HSB(221,100,50)  &trans      &rgb_ug RGB_COLOR_HSB(66,100,49)  &trans  &trans            &trans          &trans  &trans           &trans     &rgb_ug RGB_COLOR_HSB(41,100,49)   &trans         &trans
+                                                              &trans      &trans                            &trans                                    &trans  &trans           &trans
             >;
         };
 
