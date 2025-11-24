@@ -61,7 +61,7 @@ layers:
   - {t: Gui+Ctl+Alt+/, s: 'Gui+Ctl+Alt+?'}
   - browser
   - {t: '''', s: '"'}
-  - {t: '0', s: )}
+  - F5
   - '&mypssword'
   - {t: '$$mdi:transfer$$', type: trans}
   - workspaces
