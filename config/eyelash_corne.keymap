@@ -720,9 +720,9 @@
 
         symbols_layer {
             bindings = <
-&trans  &trans     &trans     &trans      &trans       &trans                    &trans          &trans  &trans    &trans  &trans      &trans         &trans
-&trans  &kp CARET  &kp SLASH  &kp DOLLAR  &kp PERCENT  &trans            &trans  &trans  &trans  &trans  &kp HASH  &kp AT  &kp DOLLAR  &kp BACKSLASH  &trans
-&trans  &trans     &trans     &trans      &trans       &trans  &trans            &trans          &trans  &trans    &trans  &trans      &trans         &trans
+&trans  &trans     &trans     &kp UNDER   &trans       &trans                    &trans          &trans  &trans    &kp MINUS  &trans      &trans         &trans
+&trans  &kp CARET  &kp SLASH  &kp DOLLAR  &kp PERCENT  &trans            &trans  &trans  &trans  &trans  &kp HASH  &kp AT     &kp DOLLAR  &kp BACKSLASH  &trans
+&trans  &trans     &trans     &trans      &trans       &trans  &trans            &trans          &trans  &trans    &trans     &trans      &trans         &trans
                               &trans      &trans       &trans                                    &trans  &trans    &trans
             >;
         };
