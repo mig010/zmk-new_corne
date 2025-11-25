@@ -54,7 +54,7 @@ layers:
   - Gui+Y
   - Gui+Y
   - Gui+W
-  - figma
+  - {t: figma, h: toggle}
   - {t: '5', s: '%'}
   - captial_letters
   - '"'
@@ -887,7 +887,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+Sft+V, h: Sft+Gui+C}
   - {t: C, h: Alt+Gui+C}
-  - {t: V, h: Alt+Gui+V, type: held}
+  - {t: V, h: Alt+Gui+V}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -927,7 +927,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - captial_letters
-  - {t: symbols, type: held}
+  - symbols
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -936,7 +936,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB COLOR HSB(0,100,45)
   - _
-  - {t: RGB EFF, type: held}
+  - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -985,7 +985,7 @@ layers:
   - Sft+Q
   - Sft+W
   - Sft+F
-  - {t: Sft+P, type: held alternate}
+  - Sft+P
   - Sft+B
   - {type: held}
   - Sft+J
