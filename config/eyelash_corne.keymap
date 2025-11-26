@@ -537,6 +537,13 @@
             bindings = <&kp CARET &kp F5>;
             label = "VSCODERUN";
         };
+
+        flutter_watch: flutter_watch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp F &kp L &kp U &kp T &kp T &kp E &kp R &kp MINUS &kp W &kp A &kp T &kp C &kp H>;
+            label = "FLUTTER_WATCH";
+        };
     };
 
     keymap {
@@ -557,10 +564,10 @@
         all_layer {
             display-name = "all";
             bindings = <
-&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &mo 18     &kp N5                                         &mo 20                           &kp DOUBLE_QUOTES  &kp LG(LC(LA(SLASH)))  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
-&trans     &mo 23           &mo 26     &mo 6      &mo 13     &kp F8                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F3             &kp TAB                &kp LC(W)      &kp ESCAPE        &mo 31   &kp Z
-&trans     &rgb_ug RGB_OFF  &kp LG(X)  &kp LG(C)  &kp LG(V)  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR    &findbra               &closingcurly  &seechildren      &kp END  &mipassword
-                                       &trans     &trans     &trans                                                                          &kp LC(S)          &mo 17                 &kp LG(Z)
+&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &mo 18     &kp N5                                        &mo 20                           &kp DOUBLE_QUOTES  &kp LG(LC(LA(SLASH)))  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
+&trans     &mo 23           &mo 26     &mo 6      &mo 13     &kp F8                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F3             &kp TAB                &kp LC(W)      &kp ESCAPE        &mo 31   &kp Z
+&trans     &rgb_ug RGB_OFF  &kp LG(X)  &kp LG(C)  &kp LG(V)  &flutter_watch  &kp C_MUTE                    &mmv MOVE_DOWN                   &vscoderun         &findbra               &closingcurly  &seechildren      &kp END  &mipassword
+                                       &trans     &trans     &trans                                                                         &kp LC(S)          &mo 17                 &kp LG(Z)
             >;
 
             sensor-bindings = <&scroll_encoder>;
