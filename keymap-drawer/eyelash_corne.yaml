@@ -54,9 +54,9 @@ layers:
   - Gui+Y
   - Gui+Y
   - Gui+W
-  - {t: figma, h: toggle}
+  - figma
   - {t: '5', s: '%'}
-  - captial_letters
+  - captl
   - '"'
   - {t: Gui+Ctl+Alt+/, s: 'Gui+Ctl+Alt+?'}
   - browser
@@ -887,7 +887,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+Sft+V, h: Sft+Gui+C}
   - {t: C, h: Alt+Gui+C}
-  - {t: V, h: Alt+Gui+V}
+  - {t: V, h: Alt+Gui+V, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -926,8 +926,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - captial_letters
-  - symbols
+  - captl
+  - {t: symbols, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -936,7 +936,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB COLOR HSB(0,100,45)
   - _
-  - RGB EFF
+  - {t: RGB EFF, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -980,12 +980,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  captial_letters:
+  captl:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Q
   - Sft+W
   - Sft+F
-  - Sft+P
+  - {t: Sft+P, type: held alternate}
   - Sft+B
   - {type: held}
   - Sft+J
