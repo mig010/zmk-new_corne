@@ -530,6 +530,13 @@
             bindings = <&kp D &kp I &kp LS(B)>;
             label = "EXTERMINATE_BRACKETS";
         };
+
+        vscoderun: vscoderun {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp CARET &kp F5>;
+            label = "VSCODERUN";
+        };
     };
 
     keymap {
