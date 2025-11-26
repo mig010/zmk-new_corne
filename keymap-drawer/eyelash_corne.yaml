@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - numbers
+  - $$mdi:apple-keyboard-shift$$
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - all
   - {t: '$$mdi:keyboard-return$$', h: vim}
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
+  - numbers
   all:
   - '&bl BL_ON'
   - Gui+Y
@@ -141,12 +141,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   vim:
   - '&studio_unlock'
   - F1
