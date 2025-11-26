@@ -550,7 +550,7 @@
         all_layer {
             display-name = "all";
             bindings = <
-&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &to 18     &kp N5                                         &mo 20                           &kp DOUBLE_QUOTES  &kp LG(LC(LA(SLASH)))  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
+&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &mo 18     &kp N5                                         &mo 20                           &kp DOUBLE_QUOTES  &kp LG(LC(LA(SLASH)))  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
 &trans     &mo 23           &mo 26     &mo 6      &mo 13     &kp F8                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F3             &kp TAB                &kp LC(W)      &kp ESCAPE        &mo 31   &kp Z
 &trans     &rgb_ug RGB_OFF  &kp LG(X)  &kp LG(C)  &kp LG(V)  &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR    &findbra               &closingcurly  &seechildren      &kp END  &mipassword
                                        &trans     &trans     &trans                                                                          &kp LC(S)          &mo 17                 &kp LG(Z)
@@ -727,7 +727,7 @@
             >;
         };
 
-        captial_letters {
+        captl {
             bindings = <
 &trans     &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                    &trans          &kp LS(J)  &kp LS(L)  &kp LS(U)      &kp LS(Y)       &kp LS(SEMICOLON)  &trans
 &kp LS(Q)  &kp LS(A)  &kp LS(R)  &kp LS(S)  &kp LS(T)  &kp LS(G)            &trans  &trans  &trans  &kp LS(M)  &kp LS(N)  &kp LS(E)      &kp LS(I)       &kp LS(O)          &kp LS(Z)
