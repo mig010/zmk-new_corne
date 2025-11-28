@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   kuru:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-option$$
   - Q
   - W
   - F
@@ -13,7 +13,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
   - '&td0'
   - A
   - R
@@ -29,7 +29,7 @@ layers:
   - I
   - O
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
@@ -42,13 +42,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-shift$$
+  - RIGHT GUI
+  - numbers
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - all
   - {t: '$$mdi:keyboard-return$$', h: vim}
   - $$mdi:keyboard-space$$
-  - numbers
+  - $$mdi:apple-keyboard-shift$$
   all:
   - '&bl BL_ON'
   - Gui+Y
@@ -141,12 +141,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   vim:
   - '&studio_unlock'
   - F1
