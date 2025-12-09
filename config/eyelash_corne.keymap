@@ -564,7 +564,7 @@
         all_layer {
             display-name = "all";
             bindings = <
-&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &mo 18     &kp N5                                        &mo 30                           &kp DOUBLE_QUOTES  &kp LG(LC(LA(SLASH)))  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
+&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &kp F10    &kp F6                                        &mo 30                           &kp DOUBLE_QUOTES  &kp LG(LC(LA(SLASH)))  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
 &trans     &mo 23           &mo 26     &mo 6      &mo 13     &kp F8                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F3             &kp TAB                &kp LC(W)      &kp ESCAPE        &mo 31   &kp Z
 &trans     &rgb_ug RGB_OFF  &kp LG(X)  &kp LG(C)  &kp LG(V)  &flutter_watch  &kp C_MUTE                    &mmv MOVE_DOWN                   &vscoderun         &findbra               &closingcurly  &seechildren      &kp END  &mipassword
                                        &trans     &trans     &trans                                                                         &kp LC(S)          &mo 17                 &kp LG(Z)
