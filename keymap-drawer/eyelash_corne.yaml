@@ -7,7 +7,7 @@ layers:
   - F
   - P
   - B
-  - coding
+  - captl
   - J
   - L
   - U
@@ -56,7 +56,7 @@ layers:
   - Gui+W
   - figma
   - {t: '5', s: '%'}
-  - captl
+  - coding
   - '"'
   - {t: Gui+Ctl+Alt+/, s: 'Gui+Ctl+Alt+?'}
   - browser
@@ -1025,7 +1025,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+Q, type: held alternate}
-  - {t: symbols, type: held}
+  - {t: symbols, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1515,7 +1515,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - symbols
+  - {t: symbols, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
