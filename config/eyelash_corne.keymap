@@ -770,28 +770,28 @@
 
         workspaces {
             bindings = <
-&trans  &trans  &trans         &kp LC(H)  &trans             &trans                    &trans          &trans  &trans             &kp LC(L)          &kp LG(LA(LS(U)))  &trans             &trans
-&trans  &trans  &kp LA(LG(E))  &mo 24     &kp LG(LA(LS(B)))  &trans            &trans  &trans  &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LA(LS(G)))  &trans
-&trans  &trans  &trans         &trans     &kp LC(J)          &trans  &trans            &trans          &trans  &kp LC(K)          &trans             &trans             &trans             &trans
-                               &trans     &trans             &trans                                    &mo 25  &trans             &trans
+&trans  &trans  &trans         &kp LG(LA(LS(W)))  &trans             &trans                    &trans          &trans  &trans             &kp LG(LA(LS(U)))  &trans             &trans             &trans
+&trans  &trans  &kp LA(LG(E))  &mo 24             &kp LG(LA(LS(B)))  &trans            &trans  &trans  &trans  &trans  &kp LG(LA(LS(S)))  &kp LG(LA(LS(D)))  &kp LG(LA(LS(F)))  &kp LG(LA(LS(G)))  &trans
+&trans  &trans  &trans         &trans             &kp LG(LA(LS(Y)))  &trans  &trans            &trans          &trans  &kp LG(LA(LS(A)))  &trans             &trans             &trans             &trans
+                               &trans             &trans             &trans                                    &mo 25  &trans             &trans
             >;
         };
 
         workspace_layouts {
             bindings = <
-&trans  &trans         &trans  &trans  &trans          &trans                    &kp LG(MINUS)          &trans             &trans         &trans         &trans         &trans         &trans
-&trans  &kp LG(SLASH)  &trans  &trans  &kp LG(PERIOD)  &trans            &trans  &trans         &trans  &trans             &kp LG(LS(H))  &kp LG(LS(J))  &kp LG(LS(K))  &kp LG(LS(L))  &trans
-&trans  &trans         &trans  &trans  &trans          &trans  &trans            &trans                 &trans             &trans         &trans         &trans         &trans         &trans
-                               &trans  &trans          &trans                                           &kp LS(LG(EQUAL))  &trans         &trans
+&trans  &trans         &trans  &trans  &trans             &trans                    &kp LG(LS(MINUS))          &trans             &trans             &trans         &trans         &trans         &trans
+&trans  &kp LG(SLASH)  &trans  &trans  &kp LG(PERIOD)     &trans            &trans  &trans             &trans  &trans             &kp LG(LS(H))      &kp LG(LS(J))  &kp LG(LS(K))  &kp LG(LS(L))  &trans
+&trans  &trans         &trans  &trans  &kp LG(LS(MINUS))  &trans  &trans            &trans                     &trans             &kp LG(LS(EQUAL))  &trans         &trans         &trans         &trans
+                               &trans  &trans             &trans                                               &kp LG(LS(EQUAL))  &trans             &trans
             >;
         };
 
         wordspace_focus {
             bindings = <
-&trans  &trans     &trans  &trans  &trans     &trans                    &trans          &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &kp LG(E)  &trans  &trans  &kp LG(A)  &trans            &trans  &trans  &trans  &trans  &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans
-&trans  &trans     &trans  &trans  &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans     &trans     &trans
-                           &trans  &trans     &trans                                    &trans  &trans     &trans
+&trans  &trans     &trans  &kp LG(LS(MINUS))  &trans          &trans                    &trans          &trans  &trans         &kp LG(LS(EQUAL))  &trans     &trans     &trans
+&trans  &kp LG(B)  &trans  &trans             &kp LG(LS(A))   &trans            &trans  &trans  &trans  &trans  &kp LG(H)      &kp LG(L)          &kp LG(J)  &kp LG(K)  &trans
+&trans  &trans     &trans  &trans             &kp LG(PERIOD)  &trans  &trans            &trans          &trans  &kp LG(SLASH)  &trans             &trans     &trans     &trans
+                           &trans             &trans          &trans                                    &trans  &trans         &trans
             >;
         };
 
