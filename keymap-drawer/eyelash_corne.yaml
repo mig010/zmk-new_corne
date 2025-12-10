@@ -54,10 +54,10 @@ layers:
   - Gui+Y
   - Gui+Y
   - Gui+W
-  - F10
-  - F7
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '&mipassword'
   - coding
-  - '"'
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-option$$'}
   - '"'
   - browser
   - {t: '''', s: '"'}
@@ -68,11 +68,11 @@ layers:
   - arrow_movements
   - vim_bracets
   - raycast
-  - F8
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - F3
+  - $$mdi:keyboard-tab-reverse$$
   - $$mdi:keyboard-tab$$
   - Ctl+W
   - $$mdi:keyboard-esc$$
