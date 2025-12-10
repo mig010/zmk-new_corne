@@ -58,7 +58,7 @@ layers:
   - F7
   - coding
   - '"'
-  - F6
+  - '"'
   - browser
   - {t: '''', s: '"'}
   - F5
