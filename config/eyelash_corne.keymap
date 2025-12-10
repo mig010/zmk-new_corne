@@ -567,7 +567,7 @@
 &bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &kp F10    &kp F7                                        &mo 30                           &kp DOUBLE_QUOTES  &kp F6    &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
 &trans     &mo 23           &mo 26     &mo 6      &mo 13     &kp F8                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F3             &kp TAB   &kp LC(W)      &kp ESCAPE        &mo 30   &kp Z
 &trans     &rgb_ug RGB_OFF  &kp LG(X)  &kp LG(C)  &kp LG(V)  &flutter_watch  &kp C_MUTE                    &mmv MOVE_DOWN                   &vscoderun         &findbra  &closingcurly  &seechildren      &kp END  &mipassword
-                                       &trans     &trans     &trans                                                                         &kp LC(S)          &mo 17    &kp LG(Z)
+                                       &trans     &trans     &trans                                                                         &mo 12             &mo 17    &kp LG(Z)
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -671,10 +671,10 @@
 
         mouseless {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &kp F12          &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &kp F5  &kp F2  &kp F9  &kp F4  &kp F1             &trans  &trans   &trans  &trans  &kp F6  &trans  &kp F3  &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans   &trans            &trans           &trans  &trans  &trans  &trans  &trans   &trans
-                        &trans  &trans  &kp F11                                     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp F12          &trans  &trans     &trans  &trans   &trans  &trans
+&trans  &kp F5  &kp F6  &kp F3  &kp F4  &trans             &trans  &trans   &trans  &trans  &kp LC(S)  &kp F8  &kp F10  &kp F9  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &trans            &trans           &trans  &trans     &trans  &trans   &trans  &trans
+                        &trans  &trans  &kp F11                                     &trans  &trans     &trans
             >;
         };
 
