@@ -55,10 +55,10 @@ layers:
   - Gui+Y
   - Gui+W
   - F10
-  - F6
+  - F7
   - coding
   - '"'
-  - {t: Gui+Ctl+Alt+/, s: 'Gui+Ctl+Alt+?'}
+  - F6
   - browser
   - {t: '''', s: '"'}
   - F5
