@@ -635,14 +635,14 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans  &kp LG(W)          &trans             &trans                               &mo 12          &trans  &trans     &trans  &kp LG(T)  &trans  &trans
-&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))            &trans  &trans  &trans  &trans  &kp LS(E)  &trans  &kp LS(R)  &mo 11  &trans
-&trans  &trans             &trans  &trans             &trans             &trans             &trans            &trans          &trans  &trans     &trans  &trans     &trans  &trans
-                                   &trans             &trans             &trans                                               &mo 12  &trans     &trans
+&trans  &trans             &trans  &kp LG(W)          &trans             &trans                               &mo 12          &trans  &trans  &trans  &kp LG(T)  &trans  &trans
+&trans  &kp LC(LA(LS(F)))  &trans  &kp LC(LA(LS(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))            &trans  &trans  &trans  &trans  &mo 15  &trans  &mo 16     &mo 11  &trans
+&trans  &trans             &trans  &trans             &trans             &trans             &trans            &trans          &trans  &trans  &trans  &trans     &trans  &trans
+                                   &trans             &trans             &trans                                               &mo 9   &trans  &trans
             >;
         };
 
-        browser_tabs {
+        survingkey {
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans                    &trans          &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &kp X   &kp LS(X)  &kp LG(T)  &trans            &trans  &trans  &trans  &trans  &kp LS(S)  &kp LS(D)  &kp LS(I)  &trans  &trans
@@ -696,7 +696,7 @@
             >;
         };
 
-        layer_15 {
+        surfingskey {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -705,7 +705,7 @@
             >;
         };
 
-        layer_16 {
+        surf {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
