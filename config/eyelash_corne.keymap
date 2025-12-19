@@ -833,10 +833,10 @@
 
         coding {
             bindings = <
-&trans  &trans            &trans             &kp UNDER       &trans           &trans                    &trans          &trans  &trans                &kp MINUS              &trans         &trans  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &trans
-&trans  &trans            &trans             &trans          &trans           &trans  &trans            &trans          &trans  &kp AT                &trans                 &trans         &trans  &trans
-                                             &trans          &trans           &mo 19                                    &mo 31  &trans                &trans
+&trans  &trans            &trans             &kp UNDER       &trans             &trans                    &trans          &trans  &trans                &kp MINUS              &trans         &trans  &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &trans
+&trans  &trans            &trans             &trans          &kp LS(SEMICOLON)  &trans  &trans            &trans          &trans  &kp AT                &trans                 &trans         &trans  &trans
+                                             &trans          &trans             &mo 19                                    &mo 31  &trans                &trans
             >;
         };
 
