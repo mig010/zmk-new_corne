@@ -682,7 +682,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: symbols, type: held}
   - Sft+Alt+Y
   - Sft+Gui+L
   - Ctl+Sft+Q
@@ -949,7 +949,7 @@ layers:
   - ^
   - {t: /, s: '?'}
   - $
-  - '%'
+  - {t: '%', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
