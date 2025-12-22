@@ -564,7 +564,7 @@
         all_layer {
             display-name = "all";
             bindings = <
-&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &mt LCTRL LCTRL  &mipassword                                   &mo 30                           &mt RIGHT_ALT RIGHT_ALT  &kp DOUBLE_QUOTES  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
+&bl BL_ON  &kp LG(Y)        &kp LG(Y)  &kp LG(W)  &mt LCTRL LCTRL  &mipassword                                   &mo 19                           &mt RIGHT_ALT RIGHT_ALT  &kp DOUBLE_QUOTES  &mo 8          &kp SINGLE_QUOTE  &kp F5   &mypssword
 &trans     &mo 23           &mo 26     &mo 6      &mo 13           &trans                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LS(TAB)              &kp TAB            &kp LC(W)      &kp ESCAPE        &mo 30   &kp Z
 &trans     &rgb_ug RGB_OFF  &kp LG(X)  &kp LG(C)  &kp LG(V)        &flutter_watch  &kp C_MUTE                    &mmv MOVE_DOWN                   &vscoderun               &findbra           &closingcurly  &seechildren      &kp END  &mipassword
                                        &trans     &trans           &trans                                                                         &mo 12                   &mo 17             &kp LG(Z)
@@ -588,7 +588,7 @@
         vim_layer {
             display-name = "vim";
             bindings = <
-&studio_unlock  &kp F1  &changetext  &kp DOLLAR     &kp HASH   &kp F5                                  &mmv MOVE_UP                     &kp F6            &kp ASTERISK  &kp PERCENT  &stringchange  &kp F10         &kp F11
+&studio_unlock  &kp F1  &changetext  &kp DOLLAR     &kp HASH   &kp F5                                  &mo 22                           &kp F6            &kp ASTERISK  &kp PERCENT  &stringchange  &kp F10         &kp F11
 &trans          &mo 22  &kp B        &mo 4          &kp W      &yiw                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &delwithspacedaw  &kp J         &kp K        &mo 21         &mo 7           &kp F12
 &trans          &trans  &trans       &kp LC(O)      &kp SLASH  &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans            &kp LS(L)     &kp LC(I)    &kp C          &kp SCROLLLOCK  &kp PAUSE_BREAK
                                      &kp BACKSLASH  &trans     &mo 5                                                                    &trans            &trans        &trans
