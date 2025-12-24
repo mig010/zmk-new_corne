@@ -544,6 +544,13 @@
             bindings = <&none &kp F &kp L &kp U &kp T &kp T &kp E &kp R &kp MINUS &kp W &kp A &kp T &kp C &kp H>;
             label = "FLUTTER_WATCH";
         };
+
+        browser_surfing: browser_surfing {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp D &kp R &kp I &kp V &kp E &kp DOT &kp G &kp O &kp O &kp G &kp L &kp E &kp DOT &kp C &kp O &kp M &kp FSLH &kp F &kp I &kp L &kp E &kp FSLH &kp D &kp FSLH &kp N1 &kp LS(Y) &kp T &kp LS(Q) &kp MINUS &kp LS(N) &kp E &kp U &kp T &kp M &kp T &kp LS(R) &kp O &kp N &kp N &kp H &kp G &kp LS(S) &kp B &kp LS(K) &kp N5 &kp LS(H) &kp LS(E) &kp UNDER &kp N0 &kp G &kp Y &kp X &kp LS(Z) &kp T &kp O &kp LS(G) &kp LS(U) &kp FSLH &kp V &kp I &kp E &kp W &kp QMARK &kp U &kp S &kp P &kp EQUAL &kp S &kp H &kp A &kp R &kp I &kp N &kp G>;
+            label = "BROWSER_SURFING";
+        };
     };
 
     keymap {
@@ -833,10 +840,10 @@
 
         coding {
             bindings = <
-&trans  &trans            &trans             &kp UNDER       &trans             &trans                    &trans          &trans  &trans                &kp MINUS              &trans         &trans  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &trans
-&trans  &trans            &trans             &trans          &kp LS(SEMICOLON)  &trans  &trans            &trans          &trans  &kp AT                &trans                 &trans         &trans  &trans
-                                             &trans          &trans             &mo 19                                    &mo 31  &trans                &trans
+&browser_surfing  &trans            &trans             &kp UNDER       &trans             &trans                    &trans          &trans  &trans                &kp MINUS              &trans         &trans  &trans
+&trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &trans
+&trans            &trans            &trans             &trans          &kp LS(SEMICOLON)  &trans  &trans            &trans          &trans  &kp AT                &trans                 &trans         &trans  &trans
+                                                       &trans          &trans             &mo 19                                    &mo 31  &trans                &trans
             >;
         };
 
