@@ -714,10 +714,10 @@
 
         surf {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                    &trans          &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans            &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans            &trans          &trans  &trans          &trans          &trans           &trans  &trans
+                        &trans     &trans     &trans                                    &trans  &trans          &trans
             >;
         };
 
@@ -807,7 +807,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LS(A)          &trans  &trans    &trans        &trans          &trans     &trans
 &trans  &mo 28  &trans  &mo 27  &mo 29  &trans            &trans  &trans     &trans  &trans  &kp DOWN  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans             &trans  &trans    &trans        &trans          &trans     &trans
-                        &trans  &trans  &trans                                       &trans  &trans    &trans
+                        &trans  &trans  &mo 16                                       &trans  &trans    &trans
             >;
         };
 
