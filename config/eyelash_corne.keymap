@@ -705,19 +705,19 @@
 
         surfingskey {
             bindings = <
-&trans  &trans           &trans  &mkp MCLK        &trans            &trans                    &trans          &trans  &trans          &msc SCRL_UP    &trans           &trans            &trans
-&trans  &msc MOVE_Y(20)  &trans  &msc MOVE_Y(15)  &msc MOVE_Y(-15)  &trans            &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &msc MOVE_Y(-20)  &trans
-&trans  &trans           &trans  &trans           &trans            &trans  &trans            &trans          &trans  &trans          &trans          &trans           &trans            &trans
-                                 &trans           &trans            &trans                                    &trans  &trans          &trans
+&trans  &trans           &trans          &msc MOVE_Y(20)  &trans            &trans                    &trans          &trans  &trans          &msc MOVE_Y(-20)  &trans          &trans           &trans
+&trans  &msc MOVE_Y(-5)  &msc MOVE_Y(5)  &msc MOVE_Y(15)  &msc MOVE_Y(-15)  &trans            &trans  &trans  &trans  &trans  &msc SCRL_DOWN  &msc SCRL_UP      &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans
+&trans  &trans           &trans          &trans           &trans            &trans  &trans            &trans          &trans  &trans          &trans            &trans          &trans           &trans
+                                         &trans           &trans            &tog 0                                    &mo 16  &trans          &trans
             >;
         };
 
         surf {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                    &trans          &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans            &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans            &trans          &trans  &trans          &trans          &trans           &trans  &trans
-                        &trans     &trans     &trans                                    &mo 15  &trans          &trans
+&trans  &trans  &trans  &trans     &trans     &trans                    &trans          &trans   &trans          &none         &trans          &trans           &trans
+&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans            &trans  &trans  &trans  &trans   &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans            &trans          &trans   &trans          &trans        &trans          &trans           &trans
+                        &trans     &trans     &tog 0                                    &tog 15  &trans          &trans
             >;
         };
 
@@ -804,10 +804,10 @@
 
         arrow_movements {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LS(A)          &trans  &trans    &trans        &trans          &trans     &trans
-&trans  &mo 28  &trans  &mo 27  &mo 29  &trans            &trans  &trans     &trans  &trans  &kp DOWN  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans             &trans  &trans    &trans        &trans          &trans     &trans
-                        &trans  &trans  &mo 16                                       &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp LS(A)          &trans  &trans    &trans        &trans          &trans     &trans
+&trans  &mo 28  &trans  &mo 27  &mo 29  &trans             &trans  &trans     &trans  &trans  &kp DOWN  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &trans            &trans             &trans  &trans    &trans        &trans          &trans     &trans
+                        &trans  &trans  &tog 16                                       &trans  &trans    &trans
             >;
         };
 
