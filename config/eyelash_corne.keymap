@@ -48,7 +48,9 @@
             retro-tap;
             hold-trigger-on-release;
             flavor = "tap-preferred";
-            tapping-term-ms = <170>;
+            tapping-term-ms = <230>;
+            quick-tap-ms = <230>;
+            require-prior-idle-ms = <125>;
         };
 
         new_behaviorr: new_behaviorr {
@@ -57,12 +59,10 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <230>;
             flavor = "tap-preferred";
-            hold-while-undecided;
-            hold-while-undecided-linger;
-            retro-tap;
-            hold-trigger-on-release;
+            quick-tap-ms = <230>;
+            require-prior-idle-ms = <125>;
         };
     };
 
