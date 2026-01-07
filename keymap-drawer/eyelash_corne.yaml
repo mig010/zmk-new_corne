@@ -43,11 +43,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - RIGHT GUI
-  - numbers
-  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: 'Alt+$$mdi:backspace$$', h: numbers}
   - all
   - {t: '$$mdi:keyboard-return$$', h: vim}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
   all:
   - '&bl BL_ON'
@@ -141,8 +141,8 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
