@@ -608,10 +608,10 @@
         numbers_layer {
             display-name = "numbers";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp N5        &kp DLLR      &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS  &kp NUMBER_6  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp N7    &kp N8        &kp N9    &kp N0    &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none         &none         &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans        &trans        &kp SPACE                                                             &kp RET    &trans    &trans
+&bt BT_NXT  &kp EXCL      &kp AT        &kp N5        &kp DLLR      &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS  &kp NUMBER_6  &kp LPAR  &kp RPAR  &kp BSPC
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp N7    &kp N8        &kp N9    &kp N0    &kp GRAVE
+&trans      &out OUT_USB  &out OUT_BLE  &none         &none         &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC  &kp PIPE  &kp TILDE
+                                        &trans        &trans        &kp SPACE                                                             &kp RET    &trans    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
