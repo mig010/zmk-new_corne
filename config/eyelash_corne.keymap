@@ -5,6 +5,7 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -864,10 +865,10 @@
 
         coding {
             bindings = <
-&browser_surfing  &trans            &trans             &kp UNDER       &trans             &trans                    &trans          &trans  &trans                &kp MINUS              &trans         &trans  &trans
-&trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &trans
-&trans            &trans            &trans             &trans          &kp LS(SEMICOLON)  &trans  &trans            &trans          &trans  &kp AT                &trans                 &trans         &trans  &trans
-                                                       &trans          &trans             &mo 19                                    &mo 31  &trans                &trans
+&bt BT_SEL 2    &trans            &trans             &kp UNDER       &trans             &trans                    &trans          &trans  &trans                &kp MINUS              &trans         &trans  &bt BT_SEL 4
+&trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &trans
+&bt BT_CLR_ALL  &trans            &trans             &trans          &kp LS(SEMICOLON)  &trans  &trans            &trans          &trans  &kp AT                &trans                 &trans         &trans  &bt BT_SEL 3
+                                                     &trans          &trans             &mo 19                                    &mo 31  &trans                &trans
             >;
         };
 
